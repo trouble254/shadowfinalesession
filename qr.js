@@ -20,7 +20,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
  //   let num = req.query.number;
-    async function MALVIN_XD_PAIR_CODE() {
+    async function MALVIN_XD_PAIR_CODE () {
         const {
             state,
             saveCreds
@@ -70,11 +70,11 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "malvin~" + string_session;
+                        let md = "shadow~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, MALVIN-XD User!* 👋🏻
+                        let desc = `*Hey there, SHADOW-XmD User!* 👋🏻
 
-Thanks for using *MALVIN-XD* — your session has been successfully created!
+Thanks for using *SHADOW-XmD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -83,23 +83,23 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029VbBM1Kw8kyyFKORNQv1q
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
+https://github.com/trouble254/shadow-XMD
 
 ——————
 
-> *© Powered by Malvin King*
+> *© Powered by †💖R🍥Ö💦Ú🔱ß🍷L🥺È*
 Stay cool and hack smart. ✌🏻`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
-thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+title: "§håÐðw-xmÐ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
+thumbnailUrl: "https://files.catbox.moe/cc7nww.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VbBM1Kw8kyyFKORNQv1q",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -110,31 +110,22 @@ renderLargerThumbnail: true
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
                             let desc = `*Hey there, MALVIN-XD User!* 👋🏻
 
-Thanks for using *MALVIN-XD* — your session has been successfully created!
-
-🔐 *Session ID:* Sent above  
+Thanks Thanks for using *SHADOW-XmD* — your session has been successfully created!ession ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
 
 ——————
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
-
-*💻 Source Code:*  
+https:/https://whatsapp.com/channel/0029VbBM1Kw8kyyFKORNQv1qource Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
-
-> *© Powered by Malvin King*
-Stay cool and hack smart. ✌🏻*`;
+https:/https://github.com/trouble254/shadow-XMDPo> *© Powered by †💖R🍥Ö💦Ú🔱ß🍷L🥺È*ool and hack smart. ✌🏻*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ᴍᴀʟᴠɪɴ-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
-thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
-mediaType: 2,
+thumbnathumbnailUrl: "https://files.catbox.moe/cc7nww.jpg",UsourceUrl: "https://whatsapp.com/channel/0029VbBM1Kw8kyyFKORNQv1q",ype: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }  
